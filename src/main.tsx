@@ -1,6 +1,9 @@
+// filepath: c:\Users\User\Projects\react-app\src\main.tsx
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.css'
+// Remove or comment this line:
+// import 'bootstrap/dist/css/bootstrap.css'
+import './index.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
